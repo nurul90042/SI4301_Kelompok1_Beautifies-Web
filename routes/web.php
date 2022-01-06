@@ -17,6 +17,15 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
+//ADMIN
 Route::get('/admin', [App\Http\Controllers\IndexAdminController::class, 'index'])->name('index-admin');
 Route::get('/grafik', [App\Http\Controllers\GrafikAdminController::class, 'index'])->name('grafik-admin');
+Route::get('/aboutm', [App\Http\Controllers\AboutAdminController::class, 'index'])->name('about-manage');
+Route::get('/productm', [App\Http\Controllers\ProdukAdminController::class, 'index'])->name('product-manage');
+Route::get('/shopm', [App\Http\Controllers\ShopAdminController::class, 'index'])->name('shop-manage');
+
+
+
+// GUEST
 Route::get('/index', [App\Http\Controllers\UserGuestController::class, 'index'])->name('home-guest');
+

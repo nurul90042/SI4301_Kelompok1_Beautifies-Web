@@ -253,13 +253,20 @@
                         <a class="{{ request()->is('/') ? 'active nav-link' : 'nav-link' }}"
                             href="{{ route('grafik-admin') }}"><i class="fa fa-bar-chart-o"></i> Grafik</a>
                     </li>
-					<li>
-                        <a href="chart.html"><i class="fa fa-bar-chart-o"></i> Charts</a>
+                    <li>
+                        <a class="{{ request()->is('/') ? 'active nav-link' : 'nav-link' }}"
+                            href="{{ route('about-manage') }}"><i class="fa fa-bar-chart-o"></i> About Manager</a>
                     </li>
                     <li>
-                        <a href="tab-panel.html"><i class="fa fa-qrcode"></i> Tabs & Panels</a>
+                        <a class="{{ request()->is('/') ? 'active nav-link' : 'nav-link' }}"
+                            href="{{ route('product-manage') }}"><i class="fa fa-bar-chart-o"></i> Product Manager</a>
                     </li>
-                    
+                    <li>
+                        <a class="{{ request()->is('/') ? 'active nav-link' : 'nav-link' }}"
+                            href="{{ route('shop-manage') }}"><i class="fa fa-bar-chart-o"></i> Shop Manager</a>
+                    </li>
+
+				
                     <li>
                         <a href="table.html"><i class="fa fa-table"></i> Responsive Tables</a>
                     </li>
