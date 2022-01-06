@@ -4,7 +4,7 @@
         <title>Beautifies Website</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="custom.css">
-        <link rel="shortcut icon" href="beautifies 940x348.png" />
+        <link rel="shortcut icon" href="{{ asset('usergueststyle/images/beautifes/1.png') }}" />
         <!-- Plugins CSS -->
         <link rel="stylesheet" href="{{ asset('usergueststyle/css/plugins.css') }}">
         
@@ -22,7 +22,7 @@
         <nav class="navbar navbar-expand-lg bg-white">
             <div class="container">
                 <a class="navbar-brand" href="#">
-                    <img src="beautifies 940x348.png" style="width: 150px; height: auto;">
+                    <img src="{{ asset('usergueststyle/images/beautifes/1.png') }}" style="width: 150px; height: auto;">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>

@@ -21,7 +21,7 @@
                                             </div>
                                         </div> 
                                         <div class="col-6 mt-3">
-                                            <img src="slider3.png"  alt="...">
+                                            <img src="{{ asset('usergueststyle/images/beautifes/slider3.png') }}"  alt="..."> 
                                         </div>           
                                     </div>
                                 </div>            
@@ -47,7 +47,7 @@
                                             </div>
                                         </div>
                                         <div class="col-6 mt-3">
-                                            <img src="slider1.png"  alt="...">
+                                            <img src="{{ asset('usergueststyle/images/beautifes/slider1.png') }}"  alt="...">
                                         </div>              
                                     </div>
                                 </div>            
@@ -79,7 +79,7 @@
                                                     <!-- start product image -->
                                                     <a href="#">
                                                         <!-- image -->
-                                                        <img data-src="assets/images/product-images/product-image1.jpg" src="WhatsApp Image 2022-01-06 at 7.43.31 PM (1).jpeg" alt="image" title="product">
+                                                        <img src="{{ asset('usergueststyle/images/beautifes/125.jpeg') }}"  alt="...">
                                                         <!-- End image -->
                                                         <!-- product label -->
                                                         <div class="product-labels rectangular"><span class="lbl on-sale">-16%</span> <span class="lbl pr-label1">new</span></div>
@@ -148,7 +148,7 @@
                                                     <!-- start product image -->
                                                     <a href="#">
                                                         <!-- image -->
-                                                        <img data-src="assets/images/product-images/product-image2.jpg" src="WhatsApp Image 2022-01-06 at 7.43.33 PM (1).jpeg" alt="image" title="product">
+                                                        <img src="{{ asset('usergueststyle/images/beautifes/122.jpeg') }}"  alt="...">
                                                         <!-- End image -->
                                                     </a>
                                                     <!-- end product image -->
@@ -209,7 +209,7 @@
                                                     <!-- start product image -->
                                                     <a href="#">
                                                         <!-- image -->
-                                                        <img data-src="assets/images/product-images/product-image3.jpg" src="WhatsApp Image 2022-01-06 at 7.43.33 PM.jpeg" alt="image" title="product">
+                                                        <img src="{{ asset('usergueststyle/images/beautifes/121.jpeg') }}"  alt="...">
                                                         <!-- End image -->
                                                         <!-- product label -->
                                                         <div class="product-labels rectangular"><span class="lbl pr-label2">Hot</span></div>
@@ -273,7 +273,7 @@
                                                     <!-- start product image -->
                                                     <a href="#">
                                                         <!-- image -->
-                                                        <img data-src="assets/images/product-images/product-image4.jpg" src="WhatsApp Image 2022-01-06 at 7.43.31 PM.jpeg" alt="image" title="product" />
+                                                        <img src="{{ asset('usergueststyle/images/beautifes/123.jpeg') }}"  alt="...">
                                                         <!-- End image -->
                                                         <!-- product label -->
                                                         <div class="product-labels"><span class="lbl on-sale">Sale</span></div>
@@ -340,7 +340,7 @@
                                                     <!-- start product image -->
                                                     <a href="#">
                                                         <!-- image -->
-                                                        <img  data-src="assets/images/product-images/product-image5.jpg" src="WhatsApp Image 2022-01-06 at 7.43.34 PM.jpeg" alt="image" title="product" />
+                                                        <img src="{{ asset('usergueststyle/images/beautifes/12.jpeg') }}"  alt="...">
                                                         <!-- End image -->
                                                         <!-- product label -->
                                                         <div class="product-labels"><span class="lbl on-sale">Sale</span></div>
@@ -412,7 +412,7 @@
 
           <!--Start Store Feature-->
           <div class="section-header text-center" style="margin-top: 100px;">
-            <h1 class="h1">What<img src="beautifies 940x348.png" style="width: 150px; height: auto;">Offer!</h1>
+            <h1 class="h1">What<img src="{{ asset('usergueststyle/images/beautifes/1.png') }}" style="width: 150px; height: auto;">Offer!</h1>
           </div>
           <div class="store-feature section">
         	<div class="container">
