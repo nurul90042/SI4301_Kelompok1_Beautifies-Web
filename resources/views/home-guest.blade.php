@@ -15,13 +15,13 @@
                                                 <h1 style="color:black; font-size: 35px;"><font face="Poppins"><b>Selamat Datang Di <b>Beautifies</b> Indonesia</b></font></h1>
                                                 <p style="font-size: 15px;"><font face="Poppins">Kamu akan menemukan nutrisi kulitmu disini. Yuk! percantik dirimu dengan produk-produk alami dan yang pastinya halal bersama kami.</font></p>
                                                 <div style="padding-top:70px;">
-                                                    <button type="button" class="btn btn-primary label-form" style="margin-top:0px;width: 95%;" data-bs-toggle="modal" data-bs-target="#registmodal">Registrasi Sekarang</button>
+                                                    <button type="button" class="btn  label-form" style="margin-top:0px;width: 95%; background-color:#FB2E86;" data-bs-toggle="modal" data-bs-target="#registmodal">Registrasi Sekarang</button>
                                                     <h6 style="text-align:center; color: black; margin-top: 10px;">Yuk gabung untuk jadi member tetap!</h6>
                                                 </div>
                                             </div>
                                         </div> 
                                         <div class="col-6 mt-3">
-                                            <img src="{{ asset('usergueststyle/images/beautifes/slider3.png') }}"  alt="..."> 
+                                            <img src="{{ asset('usergueststyle/images/beautifes/slide2.png') }}"  alt="..."> 
                                         </div>           
                                     </div>
                                 </div>            
@@ -37,17 +37,17 @@
                                     <div class="row">
                                         <div class="col-6 mt-3">
                                             <div style="width:100%;">
-                                                <p style="font-size: 10px;"><font face="Poppins">Best Value!</font></p>
+                                                <p style="font-size: 10px; color:#FB2E86;"><font face="Poppins">Best Value!</font></p>
                                                 <h1 style="color:black; font-size: 35px;"><font face="Poppins"><b>Skincare <b>Terbaru </b> Akhir Pekan Ini!</b></font></h1>
                                                 <p style="font-size: 10px;"><font face="Poppins">Dapatkan diskon hingga 70%</font></p>
                                                 <div style="padding-top:70px;">
-                                                    <button type="button" class="btn btn-primary label-form" style="margin-top:0px;width: 95%;" data-bs-toggle="modal" data-bs-target="#registmodal">Registrasi Sekarang</button>
+                                                    <button type="button" class="btn label-form" style="margin-top:0px;width: 95%; background-color:#FB2E86;" data-bs-toggle="modal" data-bs-target="#registmodal">Registrasi Sekarang</button>
                                                     <h6 style="text-align:center; color: black; margin-top: 10px;">Yuk gabung untuk jadi member tetap!</h6>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-6 mt-3">
-                                            <img src="{{ asset('usergueststyle/images/beautifes/slider1.png') }}"  alt="...">
+                                            <img src="{{ asset('usergueststyle/images/beautifes/slide1.png') }}"  alt="...">
                                         </div>              
                                     </div>
                                 </div>            
@@ -119,7 +119,10 @@
                                                 <div class="product-details text-center">
                                                     <!-- product name -->
                                                     <div class="product-name">
-                                                        <a href="#">Edna Dress</a>
+                                                        <a href="#">Edna Dress</a> &nbsp&nbsp&nbsp&nbsp&nbsp
+                                                        <span class="old-price">$500.00</span>
+                                                        <span class="price" style="color:#DE2D2D;"><b>$600.00</b></span>
+                                                        
                                                     </div>
                                                     <!-- End product name -->
                                                     <div class="product-tags" style="margin-top: 5px;">
@@ -127,10 +130,7 @@
                                                     </div>
                                                     <!-- end code product -->
                                                     <!-- product price -->
-                                                    <div class="product-price">
-                                                        <span class="old-price">$500.00</span>
-                                                        <span class="price">$600.00</span>
-                                                    </div>
+                                                    
                                                     <!-- End product price -->
                                                     <div class="product-review">
                                                         <i class="font-13 fa fa-star"></i>
@@ -409,7 +409,7 @@
             </div>
           </section>
           <!-- Start Produk -->
-
+    
           <!--Start Store Feature-->
           <div class="section-header text-center" style="margin-top: 100px;">
             <h1 class="h1">What<img src="{{ asset('usergueststyle/images/beautifes/1.png') }}" style="width: 150px; height: auto;">Offer!</h1>
@@ -448,4 +448,3 @@
 
 @endsection
 
-{{-- <h1>HALOO</h1> --}}
