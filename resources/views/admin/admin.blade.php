@@ -4,15 +4,14 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Free Bootstrap Admin Template : Dream</title>
     <!-- Bootstrap Styles-->
-    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <link href="{{ asset('style/css/bootstrap.css') }}" rel="stylesheet" />
+    <link href="{{ asset('style/css/custom-styles.css') }}" rel="stylesheet" />
     <!-- FontAwesome Styles-->
-    <link href="assets/css/font-awesome.css" rel="stylesheet" />
+    <link href="{{ asset('style/css/font-awesome.css') }}" rel="stylesheet" />
     <!-- Morris Chart Styles-->
-    <link href="assets/js/morris/morris-0.4.3.min.css" rel="stylesheet" />
-    <!-- Custom Styles-->
-    <link href="assets/css/custom-styles.css" rel="stylesheet" />
+    <link href="{{ asset('style/js/morris/morris-0.4.3.min.css') }}" rel="stylesheet" />
+
     <!-- Google Fonts-->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
 </head>
@@ -312,8 +311,9 @@
                         </h1>
                     </div>
                 </div>
+                @yield('main')
                 <!-- /. ROW  -->
-
+{{-- 
                 <div class="row">
                     <div class="col-md-3 col-sm-12 col-xs-12">
                         <div class="panel panel-primary text-center no-boder bg-color-green">
@@ -503,7 +503,7 @@
                         </div>
 
                     </div>
-                </div>
+                </div> --}}
                 <!-- /. ROW  -->
 				<footer><p>All right reserved. Template by: <a href="http://webthemez.com">WebThemez</a></p></footer>
             </div>
