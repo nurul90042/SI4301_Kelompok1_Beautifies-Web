@@ -10,7 +10,7 @@
                 Bar Chart Example
             </div>
             <div class="panel-body">
-                <div id="curve_chart" style="width: 900px; height: 500px"></div>
+                <div id="morris-bar-chart"></div>
             </div>
         </div>
     </div>

@@ -17,6 +17,6 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
-Route::get('/', [App\Http\Controllers\IndexAdminController::class, 'index'])->name('index-admin');
+Route::get('/admin', [App\Http\Controllers\IndexAdminController::class, 'index'])->name('index-admin');
 Route::get('/grafik', [App\Http\Controllers\GrafikAdminController::class, 'index'])->name('grafik-admin');
-Route::get('/guest', [App\Http\Controllers\UserGuestController::class, 'index'])->name('home-guest');
+Route::get('/index-user-guest', [App\Http\Controllers\UserGuestController::class, 'index'])->name('home-guest');
