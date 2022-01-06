@@ -1,4 +1,4 @@
-@extends('layouts.user-guest')
+@extends('layouts.user')
 @section('main')
 
 <!-- Start Page -->
@@ -447,3 +447,5 @@
           <!--End Store Feature-->
 
 @endsection
+
+{{-- <h1>HALOO</h1> --}}

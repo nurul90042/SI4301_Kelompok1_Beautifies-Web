@@ -19,4 +19,4 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/admin', [App\Http\Controllers\IndexAdminController::class, 'index'])->name('index-admin');
 Route::get('/grafik', [App\Http\Controllers\GrafikAdminController::class, 'index'])->name('grafik-admin');
-Route::get('/index-user-guest', [App\Http\Controllers\UserGuestController::class, 'index'])->name('home-guest');
+Route::get('/index', [App\Http\Controllers\UserGuestController::class, 'index'])->name('home-guest');
