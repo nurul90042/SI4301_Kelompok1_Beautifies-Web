@@ -458,7 +458,7 @@
                     </div>
                 </div> --}}
                 <!-- /. ROW  -->
-				<footer><p>All right reserved. Template by: <a href="http://webthemez.com">WebThemez</a></p></footer>
+				
             </div>
             <!-- /. PAGE INNER  -->
         </div>
