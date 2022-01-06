@@ -14,30 +14,7 @@
 
     <!-- Google Fonts-->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
-    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-    <script type="text/javascript">
-      google.charts.load('current', {'packages':['corechart']});
-      google.charts.setOnLoadCallback(drawChart);
-
-      function drawChart() {
-        var data = google.visualization.arrayToDataTable([
-          ['Year', 'Sales', 'Expenses'],
-          ['2004',  1000,      400],
-          ['2005',  1170,      460],
-          ['2006',  660,       1120],
-          ['2007',  1030,      540]
-        ]);
-
-        var options = {
-          curveType: 'function',
-          legend: { position: 'bottom' }
-        };
-
-        var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
-
-        chart.draw(data, options);
-      }
-    </script>
+   
 </head>
 
 <body>
@@ -274,7 +251,7 @@
                     </li>
                     <li>
                         <a class="{{ request()->is('/') ? 'active nav-link' : 'nav-link' }}"
-                            href="{{ route('grafik-admin') }}"><i class="fa fa-dashboard"></i> Grafik</a>
+                            href="{{ route('grafik-admin') }}"><i class="fa fa-bar-chart-o"></i> Grafik</a>
                     </li>
 					<li>
                         <a href="chart.html"><i class="fa fa-bar-chart-o"></i> Charts</a>
@@ -286,15 +263,7 @@
                     <li>
                         <a href="table.html"><i class="fa fa-table"></i> Responsive Tables</a>
                     </li>
-                    <li>
-                        <a href="form.html"><i class="fa fa-edit"></i> Forms </a>
-                    </li>
-
-
-                    
-                    <li>
-                        <a href="empty.html"><i class="fa fa-fw fa-file"></i> Empty Page</a>
-                    </li>
+            
                 </ul>
 
             </div>
