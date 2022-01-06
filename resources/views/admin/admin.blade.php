@@ -5,12 +5,12 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Bootstrap Styles-->
-    <link href="{{ asset('style/css/bootstrap.css') }}" rel="stylesheet" />
-    <link href="{{ asset('style/css/custom-styles.css') }}" rel="stylesheet" />
+    <link href="{{ asset('adminstyle/css/bootstrap.css') }}" rel="stylesheet" />
+    <link href="{{ asset('adminstyle/css/custom-styles.css') }}" rel="stylesheet" />
     <!-- FontAwesome Styles-->
-    <link href="{{ asset('style/css/font-awesome.css') }}" rel="stylesheet" />
+    <link href="{{ asset('adminstyle/css/font-awesome.css') }}" rel="stylesheet" />
     <!-- Morris Chart Styles-->
-    <link href="{{ asset('style/js/morris/morris-0.4.3.min.css') }}" rel="stylesheet" />
+    <link href="{{ asset('adminstyle/js/morris/morris-0.4.3.min.css') }}" rel="stylesheet" />
 
     <!-- Google Fonts-->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
@@ -26,7 +26,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">Dream</a>
+                <a class="navbar-brand" href="index.html" style="font-size:20px;">Beautifies Admin</a>
             </div>
 
             <ul class="nav navbar-top-links navbar-right">

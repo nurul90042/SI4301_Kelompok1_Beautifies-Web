@@ -7,7 +7,7 @@
         <div class="panel panel-primary text-center no-boder bg-color-green">
             <div class="panel-body">
                 <i class="fa fa-bar-chart-o fa-5x"></i>
-                <h3>8,457</h3>
+                <h3>XXX</h3>
             </div>
             <div class="panel-footer back-footer-green">
                 Daily Visits
@@ -19,7 +19,7 @@
         <div class="panel panel-primary text-center no-boder bg-color-blue">
             <div class="panel-body">
                 <i class="fa fa-shopping-cart fa-5x"></i>
-                <h3>52,160 </h3>
+                <h3>XXXX</h3>
             </div>
             <div class="panel-footer back-footer-blue">
                 Sales
@@ -31,7 +31,7 @@
         <div class="panel panel-primary text-center no-boder bg-color-red">
             <div class="panel-body">
                 <i class="fa fa fa-comments fa-5x"></i>
-                <h3>15,823 </h3>
+                <h3>XXXX</h3>
             </div>
             <div class="panel-footer back-footer-red">
                 Comments
@@ -43,7 +43,7 @@
         <div class="panel panel-primary text-center no-boder bg-color-brown">
             <div class="panel-body">
                 <i class="fa fa-users fa-5x"></i>
-                <h3>36,752 </h3>
+                <h3>XXX</h3>
             </div>
             <div class="panel-footer back-footer-brown">
                 No. of Visits
@@ -126,7 +126,7 @@
 
         <div class="panel panel-default">
             <div class="panel-heading">
-                Responsive Table Example
+                Data Member Saat Ini
             </div> 
             <div class="panel-body">
                 <div class="table-responsive">
@@ -162,27 +162,7 @@
                                 <td>Rossy1245</td>
                                 <td>name@site.com</td>
                             </tr>
-                            <tr>
-                                <td>4</td>
-                                <td>Richard</td>
-                                <td>Orieal</td>
-                                <td>Rich5685</td>
-                                <td>name@site.com</td>
-                            </tr>
-                            <tr>
-                                <td>5</td>
-                                <td>Jacob</td>
-                                <td>Hielsar</td>
-                                <td>Jac4587</td>
-                                <td>name@site.com</td>
-                            </tr>
-                            <tr>
-                                <td>6</td>
-                                <td>Wrapel</td>
-                                <td>Dere</td>
-                                <td>Wrap4585</td>
-                                <td>name@site.com</td>
-                            </tr>
+                            
 
                         </tbody>
                     </table>
