@@ -21,7 +21,7 @@
         <!-- Start Navbar -->
         <nav class="navbar navbar-expand-lg bg-white">
             <div class="container">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="{{ route('home-guest') }}">
                     <img src="{{ asset('usergueststyle/images/beautifes/1.png') }}" style="width: 150px; height: auto;">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,8 +29,8 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link"  style="color: black;">Home</a>
+                        <li class="nav-item" >
+                            <a class="nav-link" href="{{ route('home-guest') }}" style="color: black;">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" style="color: black;">About</a>
@@ -42,7 +42,7 @@
                             <a class="nav-link" style="color: black;">Shop</a>
                         </li>
                     </ul>
-                    <button type="button" class="btn btn-primary label-form" style="margin-top:0px; width: 7%; margin-right: 4%;" data-bs-toggle="modal" data-bs-target="#loginmodal">Login</button>
+                    <a type="button" class="btn btn-primary label-form" style="margin-top:0px; width: 7%; margin-right: 4%; background-color:#FB2E86;" href="{{ route('login') }}">Login</a>
                 </div>
             </div>
         </nav>

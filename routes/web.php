@@ -28,4 +28,9 @@ Route::get('/shopm', [App\Http\Controllers\ShopAdminController::class, 'index'])
 
 // GUEST
 Route::get('/index', [App\Http\Controllers\UserGuestController::class, 'index'])->name('home-guest');
+<<<<<<< HEAD
+Route::get('/login', [App\Http\Controllers\LoginController::class, 'index'])->name('login');
+Route::get('/register', [App\Http\Controllers\RegisterController::class, 'index'])->name('register');
+=======
 
+>>>>>>> b74e9dc5133094c12b9bc7aeecca37f13376f9c7
