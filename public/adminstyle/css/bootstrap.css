@@ -260,6 +260,7 @@ th {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
+          border-radius: 10px;
 }
 *:before,
 *:after {
@@ -288,12 +289,12 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #428bca;
+  color: #FB2E86;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #2a6496;
+  color: #FB2E86;
   text-decoration: underline;
 }
 a:focus {
@@ -4336,7 +4337,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
-  background-color: #999;
+  background-color: #B2547C;
   border-radius: 10px;
 }
 .badge:empty {

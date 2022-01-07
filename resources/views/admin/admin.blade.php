@@ -27,7 +27,10 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html" style="font-size:20px;">Beautifies Admin</a>
+                {{-- <a class="navbar-brand" href="index.html" style="font-size:20px;">Admin</a> --}}
+                
+                <img src="{{ asset('adminstyle/img/1.png') }}" style="width:20%; margin-left:30px;">
+                {{-- <h4 style="margin-left:200px;">Admin Area</h4> --}}
             </div>
 
             <ul class="nav navbar-top-links navbar-right">
@@ -226,10 +229,8 @@
                         <i class="fa fa-user fa-fw"></i> <i class="fa fa-caret-down"></i>
                     </a>
                     <ul class="dropdown-menu dropdown-user">
-                        <li><a href="#"><i class="fa fa-user fa-fw"></i> User Profile</a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a>
-                        </li>
+                        <li><a href="#"><i class="fa fa-user fa-fw"></i> Admin Profile</a>
+                        
                         <li class="divider"></li>
                         <li><a href="#"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
                         </li>
@@ -251,19 +252,19 @@
                     </li>
                     <li>
                         <a class="{{ request()->is('/') ? 'active nav-link' : 'nav-link' }}"
-                            href="{{ route('grafik-admin') }}"><i class="fa fa-bar-chart-o"></i> Grafik</a>
+                            href="{{ route('grafik-admin') }}"><i class="fa fa-bar-chart-o"></i> Grafik Penjualan</a>
                     </li>
                     <li>
                         <a class="{{ request()->is('/') ? 'active nav-link' : 'nav-link' }}"
-                            href="{{ route('about-manage') }}"><i class="fa fa-bar-chart-o"></i> About Manager</a>
+                            href="{{ route('about-manage') }}"><i class="fa fa-table"></i> About Manager</a>
                     </li>
                     <li>
                         <a class="{{ request()->is('/') ? 'active nav-link' : 'nav-link' }}"
-                            href="{{ route('product-manage') }}"><i class="fa fa-bar-chart-o"></i> Product Manager</a>
+                            href="{{ route('product-manage') }}"><i class="fa fa-table"></i> Product Manager</a>
                     </li>
                     <li>
                         <a class="{{ request()->is('/') ? 'active nav-link' : 'nav-link' }}"
-                            href="{{ route('shop-manage') }}"><i class="fa fa-bar-chart-o"></i> Shop Manager</a>
+                            href="{{ route('shop-manage') }}"><i class="fa fa-table"></i> Shop Manager</a>
                     </li>
 
 				
