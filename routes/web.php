@@ -27,6 +27,6 @@ Route::get('/shopm', [App\Http\Controllers\ShopAdminController::class, 'index'])
 
 
 // GUEST
-Route::get('/index', [App\Http\Controllers\UserGuestController::class, 'index'])->name('home-guest');
+Route::get('/', [App\Http\Controllers\UserGuestController::class, 'index'])->name('home-guest');
 Route::get('/login', [App\Http\Controllers\LoginController::class, 'index'])->name('login');
 Route::get('/register', [App\Http\Controllers\RegisterController::class, 'index'])->name('register');
