@@ -7,7 +7,7 @@
                        
         <div class="panel panel-default">
             <div class="panel-heading">
-                Bar Chart
+                Januari 2022
             </div>
             <div class="panel-body">
                 <div id="morris-bar-chart"></div>
@@ -16,6 +16,23 @@
     
          
     
+</div>
+
+<div class="row"> 
+                    
+                      
+                       
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            Februari 2022
+        </div>
+        <div class="panel-body">
+            <div id="morris-bar-chart"></div>
+        </div>
+    </div>            
+
+     
+
 </div>
 
 @endsection
