@@ -119,10 +119,7 @@
                                                 <div class="product-details text-center">
                                                     <!-- product name -->
                                                     <div class="product-name">
-                                                        <a href="#">Edna Dress</a> &nbsp&nbsp&nbsp&nbsp&nbsp
-                                                        <span class="old-price">$500.00</span>
-                                                        <span class="price" style="color:#DE2D2D;"><b>$600.00</b></span>
-                                                        
+                                                        <a href="#">Edna Dress</a>  
                                                     </div>
                                                     <!-- End product name -->
                                                     <div class="product-tags" style="margin-top: 5px;">
@@ -130,7 +127,10 @@
                                                     </div>
                                                     <!-- end code product -->
                                                     <!-- product price -->
-                                                    
+                                                    <div class="product-price">
+                                                        <span class="old-price">$500.00</span>
+                                                        <span class="price" style="color:#DE2D2D;"><b>$600.00</b></span>
+                                                    </div>
                                                     <!-- End product price -->
                                                     <div class="product-review">
                                                         <i class="font-13 fa fa-star"></i>
