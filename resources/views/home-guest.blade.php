@@ -6,7 +6,7 @@
         	<div class="home-slideshow">
             	<div class="slide">
                 	<div class="blur-up lazyload">
-                        <section id="about" style="padding-top: 100px; padding-bottom: 150px; background-color: #EFDEFC">
+                        <section id="about" style="padding-top: 200px; padding-bottom: 150px; background-color: #EFDEFC">
                             <div class="container" >
                                 <div class="mt-3 col-12">
                                     <div class="row">
@@ -31,7 +31,7 @@
                 </div>
                 <div class="slide">
                 	<div class="blur-up lazyload">
-                        <section id="about" style="padding-top: 100px; padding-bottom: 150px; background-color: #EFDEFC;">
+                        <section id="about" style="padding-top: 200px; padding-bottom: 150px; background-color: #EFDEFC;">
                             <div class="container" >
                                 <div class="mt-3 col-12">
                                     <div class="row">

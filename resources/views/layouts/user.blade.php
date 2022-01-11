@@ -17,36 +17,52 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     </head>
     <body style="position: relative;" class="bodyCust">
-        <div class="top-header" style="background-color: #7E33E0;"></div>
-        <!-- Start Navbar -->
-        <nav class="navbar navbar-expand-lg bg-white">
-            <div class="container">
-                <a class="navbar-brand" href="{{ route('home-guest') }}">
-                    <img src="{{ asset('usergueststyle/images/beautifes/1.png') }}" style="width: 150px; height: auto;">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item" >
-                            <a class="nav-link" href="{{ route('home-guest') }}" style="color: black;">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" style="color: black;">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" style="color: black;">Produk</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" style="color: black;">Shop</a>
-                        </li>
-                    </ul>
-                    <a type="button" class="btn btn-primary label-form" style="margin-top:0px; width: 7%; margin-right: 4%; background-color:#FB2E86;" href="{{ route('login') }}">Login</a>
+        <div class="top-header container-fluid" style="background-color: #7E33E0;"></div>
+            <!--Header-->
+            <div class="header-wrap classicHeader animated d-flex">
+                <div class="container-fluid" style="background-color:white;">        
+                    <div class="row align-items-center">
+                        <!--Desktop Logo-->
+                        <div class="logo col-md-2 col-lg-2 d-none d-lg-block">
+                            <a href="{{ route('home-guest') }}">
+                                <img src="{{ asset('usergueststyle/images/beautifes/1.png') }}" style="width: 150px; height: auto;">
+                            </a>
+                        </div>
+                        <!--End Desktop Logo-->
+                        <div class="col-2 col-sm-3 col-md-3 col-lg-8">
+                            <div class="d-block d-lg-none">
+                                <button type="button" class="btn--link site-header__menu js-mobile-nav-toggle mobile-nav--open">
+                                    <i class="icon anm anm-times-l"></i>
+                                    <i class="anm anm-bars-r"></i>
+                                </button>
+                            </div>
+                            <!--Desktop Menu-->
+                            <nav class="grid__item" class="navbar navbar-expand-lg bg-white"><!-- for mobile -->
+                                <ul id="siteNav" class="site-nav medium center hidearrow">
+                                    <li class="lvl1 parent megamenu"><a href="{{ route('home-guest') }}">Home <i class="anm anm-angle-down-l"></i></a>
+                                    </li>
+                                    <li class="lvl1 parent megamenu"><a href="#">About <i class="anm anm-angle-down-l"></i></a>
+                                    </li>
+                                    <li class="lvl1 parent megamenu"><a href="#">Product <i class="anm anm-angle-down-l"></i></a>
+                                    </li>
+                                    <li class="lvl1 parent dropdown"><a href="#">Shop <i class="anm anm-angle-down-l"></i></a>
+                                    </li>
+                                    <li>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <!--End Desktop Menu-->
+                        </div>
+                        <div class="col-4 col-sm-3 col-md-3 col-lg-1" style="margin-left:90px;">
+                            <a type="button" class="btn btn-primary label-form" style="background-color:#FB2E86; color:white; margin-left:5%;" href="{{ route('login') }}">Login</a>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </nav>
-        <!-- End Navbar -->
+            </div>        
+            <!--End Header-->
+        </div>
+            
+        
 
         @yield('main')
 
