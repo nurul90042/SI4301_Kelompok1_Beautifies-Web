@@ -24,9 +24,10 @@ Route::get('/aboutm', [App\Http\Controllers\AboutAdminController::class, 'index'
 Route::get('/productm', [App\Http\Controllers\ProdukAdminController::class, 'index'])->name('product-manage');
 Route::get('/shopm', [App\Http\Controllers\ShopAdminController::class, 'index'])->name('shop-manage');
 
-
-
 // GUEST
 Route::get('/', [App\Http\Controllers\UserGuestController::class, 'index'])->name('home-guest');
 Route::get('/login', [App\Http\Controllers\LoginController::class, 'index'])->name('login');
 Route::get('/register', [App\Http\Controllers\RegisterController::class, 'index'])->name('register');
+
+//MEMBER
+Route::get('/member', [App\Http\Controllers\MemberController::class, 'index'])->name('index-member');
