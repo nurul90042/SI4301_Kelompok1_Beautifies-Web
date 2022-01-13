@@ -29,7 +29,7 @@ Route::get('/', [App\Http\Controllers\UserGuestController::class, 'index'])->nam
 Route::get('/login', [App\Http\Controllers\LoginController::class, 'index'])->name('login');
 Route::get('/register', [App\Http\Controllers\RegisterController::class, 'index'])->name('register');
 Route::get('/about-us', [App\Http\Controllers\AboutUSController::class, 'index'])->name('about');
-
+Route::get('/shop', [App\Http\Controllers\ShopController::class, 'index'])->name('shop');
 
 //MEMBER
 Route::get('/member', [App\Http\Controllers\MemberController::class, 'index'])->name('index-member');
