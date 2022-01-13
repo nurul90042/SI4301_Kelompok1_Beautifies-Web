@@ -4,7 +4,7 @@
 <!--Body Content-->
 <div id="page-content" style="padding-top: 100px;">
     	<!--Page Title-->
-    	<div class="page section-header text-center">
+    	<div class="page section-header ">
 			<div class="page-title">
         		<div class="wrapper"><h1 class="page-width" style="background-color:#EFDEFC;">About Us</h1></div>
       		</div>
