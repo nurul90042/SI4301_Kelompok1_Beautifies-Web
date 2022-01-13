@@ -41,7 +41,7 @@
                                 <ul id="siteNav" class="site-nav medium center hidearrow">
                                     <li class="lvl1 parent megamenu"><a href="{{ route('home-guest') }}">Home <i class="anm anm-angle-down-l"></i></a>
                                     </li>
-                                    <li class="lvl1 parent megamenu"><a href="#">About <i class="anm anm-angle-down-l"></i></a>
+                                    <li class="lvl1 parent megamenu"><a href="{{ route('about-member') }}">Home <i class="anm anm-angle-down-l"></i></a>
                                     </li>
                                     <li class="lvl1 parent megamenu"><a href="#">Product <i class="anm anm-angle-down-l"></i></a>
                                     </li>

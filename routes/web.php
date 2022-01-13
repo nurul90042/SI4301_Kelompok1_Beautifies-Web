@@ -31,3 +31,5 @@ Route::get('/register', [App\Http\Controllers\RegisterController::class, 'index'
 
 //MEMBER
 Route::get('/member', [App\Http\Controllers\MemberController::class, 'index'])->name('index-member');
+Route::get('/about', [App\Http\Controllers\AboutMemberController::class, 'index'])->name('about-member');
+
