@@ -41,11 +41,19 @@
                                 <ul id="siteNav" class="site-nav medium center hidearrow">
                                     <li class="lvl1 parent megamenu"><a href="{{ route('home-guest') }}">Home <i class="anm anm-angle-down-l"></i></a>
                                     </li>
+<<<<<<< HEAD
+                                    <li class="lvl1 parent megamenu"><a href="{{ route('about-member') }}">Home <i class="anm anm-angle-down-l"></i></a>
+                                    </li>
+                                    <li class="lvl1 parent megamenu"><a href="#">Product <i class="anm anm-angle-down-l"></i></a>
+                                    </li>
+                                    <li class="lvl1 parent dropdown"><a href="#">Shop <i class="anm anm-angle-down-l"></i></a>
+=======
                                     <li class="lvl1 parent megamenu"><a href="{{ route('about') }}">About <i class="anm anm-angle-down-l"></i></a>
                                     </li>
                                     <li class="lvl1 parent megamenu"><a href="{{ route('product') }}">Product <i class="anm anm-angle-down-l"></i></a>
                                     </li>
                                     <li class="lvl1 parent dropdown"><a href="{{ route('shop') }}">Shop <i class="anm anm-angle-down-l"></i></a>
+>>>>>>> 2516efe03ed10fdd07d930dbd3ec3c48987e6805
                                     </li>
                                     <li>
                                     </li>
@@ -53,8 +61,13 @@
                             </nav>
                             <!--End Desktop Menu-->
                         </div>
+<<<<<<< HEAD
+                        <div class="col-4 col-sm-3 col-md-3 col-lg-1" style="margin-left:20px;">
+                            <a type="button" class="btn btn-primary label-form" style="background-color:#FB2E86; color:white; margin:0; width:160px;" href="{{ route('login') }}">Keranjang Saya</a>
+=======
                         <div class="col-4 col-sm-3 col-md-3 col-lg-1" style="margin-left:90px;">
                             <h1>Nama User</h1>
+>>>>>>> 2516efe03ed10fdd07d930dbd3ec3c48987e6805
                         </div>
                     </div>
                 </div>
