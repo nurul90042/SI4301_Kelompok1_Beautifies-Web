@@ -43,7 +43,7 @@
                                     </li>
                                     <li class="lvl1 parent megamenu"><a href="{{ route('about') }}">About <i class="anm anm-angle-down-l"></i></a>
                                     </li>
-                                    <li class="lvl1 parent megamenu"><a href="#">Product <i class="anm anm-angle-down-l"></i></a>
+                                    <li class="lvl1 parent megamenu"><a href="{{ route('product') }}">Product <i class="anm anm-angle-down-l"></i></a>
                                     </li>
                                     <li class="lvl1 parent dropdown"><a href="{{ route('shop') }}">Shop <i class="anm anm-angle-down-l"></i></a>
                                     </li>
