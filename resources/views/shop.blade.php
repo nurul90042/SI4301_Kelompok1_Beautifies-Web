@@ -17,81 +17,7 @@
             	<!--Sidebar-->
             	<div class="col-12 col-sm-12 col-md-3 col-lg-3 sidebar filterbar">
                 	<div class="closeFilter d-block d-md-none d-lg-none"><i class="icon icon anm anm-times-l"></i></div>
-                	<div class="sidebar_tags">
-                    	<!--Categories-->
-                    	<div class="sidebar_widget categories filter-widget">
-                            <div class="widget-title"><h2>Categories</h2></div>
-                            <div class="widget-content">
-                                <ul class="sidebar_categories">
-                                    <li class="level1 sub-level"><a href="#;" class="site-nav">Skincare</a>
-                                    	<ul class="sublinks">
-                                        	<li class="level2"><a href="#;" class="site-nav">Men</a></li>
-                                            <li class="level2"><a href="#;" class="site-nav">Women</a></li>
-                                            <li class="level2"><a href="#;" class="site-nav">Child</a></li>
-                                            <li class="level2"><a href="#;" class="site-nav">View All Skincare</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="level1 sub-level"><a href="#;" class="site-nav">Cosmetic</a>
-                                    	<ul class="sublinks">
-                                        	<li class="level2"><a href="#;" class="site-nav">Men</a></li>
-                                            <li class="level2"><a href="#;" class="site-nav">Women</a></li>
-                                            <li class="level2"><a href="#;" class="site-nav">Child</a></li>
-                                            <li class="level2"><a href="#;" class="site-nav">View All Cosmetic</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <!--Categories-->
-                        <!--Price Filter-->
-                        <div class="sidebar_widget filterBox filter-widget">
-                            <div class="widget-title">
-                            	<h2>Price</h2>
-                            </div>
-                            <form action="#" method="post" class="price-filter">
-                                <div id="slider-range" class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all">
-                                	<div class="ui-slider-range ui-widget-header ui-corner-all"></div>
-                                    <span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0"></span>
-                                    <span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0"></span>
-                                </div>
-                                <div class="row">
-                                    <div class="col-6">
-                                        <p class="no-margin"><input id="amount" type="text"></p>
-                                    </div>
-                                    <div class="col-6 text-right margin-25px-top">
-                                        <button class="btn btn-secondary btn--small">filter</button>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                        <!--End Price Filter-->
-                        <!--Brand-->
-                        <div class="sidebar_widget filterBox filter-widget">
-                            <div class="widget-title"><h2>Brands</h2></div>
-                            <ul>
-                                <li>
-                                  <input type="checkbox" value="allen-vela" id="check1">
-                                  <label for="check1"><span><span></span></span>Wardah</label>
-                                </li>
-                                <li>
-                                  <input type="checkbox" value="oxymat" id="check3">
-                                  <label for="check3"><span><span></span></span>N'Pure</label>
-                                </li>
-                                <li>
-                                  <input type="checkbox" value="vanelas" id="check4">
-                                  <label for="check4"><span><span></span></span>Scarlett</label>
-                                </li>
-                                <li>
-                                  <input type="checkbox" value="pagini" id="check5">
-                                  <label for="check5"><span><span></span></span>MS Glow</label>
-                                </li>
-                                <li>
-                                  <input type="checkbox" value="monark" id="check6">
-                                  <label for="check6"><span><span></span></span>Emina</label>
-                                </li>
-                            </ul>
-                        </div>
-                        <!--End Brand-->
+                	<div class="sidebar_tags">   
                         <!--Popular Products-->
 						<div class="sidebar_widget">
                         	<div class="widget-title"><h2>Popular Products</h2></div>
@@ -125,7 +51,7 @@
                                           <div class="grid-view-item__meta"><span class="product-price__price"><span class="money">$278.60</span></span></div>
                                         </div>
                                       </div>
-                                    </div>
+                                    </div> 
                                     <div class="grid__item">
                                       <div class="mini-list-item">
                                         <div class="mini-view_image"> <a class="grid-view-item__link" href="#"><img class="grid-view-item__image" src="{{ asset('usergueststyle/images/beautifes/Gambar/face wash.jpg') }}" alt="" /></a> </div>
@@ -164,7 +90,7 @@
                             	<div class="row">
                                 	<div class="col-4 col-md-4 col-lg-4 filters-toolbar__item collection-view-as d-flex justify-content-start align-items-center">
                                     	<a href="shop-left-sidebar.html" title="Grid View" class="change-view change-view--active">
-                                        	<img src="assets/images/grid.jpg" alt="Grid" />
+                                        	<img src="{{ asset('usergueststyle/images/grid.jpg') }}"alt="Grid" />
                                         </a>
                                     </div>
                                     <div class="col-4 col-md-4 col-lg-4 text-center filters-toolbar__item filters-toolbar__item--count d-flex justify-content-center align-items-center">
