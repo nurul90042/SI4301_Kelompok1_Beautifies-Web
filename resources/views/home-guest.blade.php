@@ -411,7 +411,7 @@
           <!-- Start Produk -->
     
           <!--Start Store Feature-->
-          <div class="section-header text-center" style="margin-top: 100px;">
+          <div class="section-header text-center" style="margin-top: 50px;">
             <h1 class="h1">What<img src="{{ asset('usergueststyle/images/beautifes/1.png') }}" style="width: 150px; height: auto;">Offer!</h1>
           </div>
           <div class="store-feature section">
