@@ -28,17 +28,11 @@ Route::get('/shopm', [App\Http\Controllers\ShopAdminController::class, 'index'])
 Route::get('/', [App\Http\Controllers\UserGuestController::class, 'index'])->name('home-guest');
 Route::get('/login', [App\Http\Controllers\LoginController::class, 'index'])->name('login');
 Route::get('/register', [App\Http\Controllers\RegisterController::class, 'index'])->name('register');
-<<<<<<< HEAD
 
 //MEMBER
 Route::get('/member', [App\Http\Controllers\MemberController::class, 'index'])->name('index-member');
 Route::get('/about', [App\Http\Controllers\AboutMemberController::class, 'index'])->name('about-member');
-=======
 Route::get('/about-us', [App\Http\Controllers\AboutUSController::class, 'index'])->name('about');
 Route::get('/shop', [App\Http\Controllers\ShopController::class, 'index'])->name('shop');
 Route::get('/product', [App\Http\Controllers\ProductController::class, 'index'])->name('product');
-
-//MEMBER
-Route::get('/member', [App\Http\Controllers\MemberController::class, 'index'])->name('index-member');
->>>>>>> 2516efe03ed10fdd07d930dbd3ec3c48987e6805
 
