@@ -411,7 +411,11 @@
           <!-- Start Produk -->
     
           <!--Start Store Feature-->
+<<<<<<< HEAD
           <div class="section-header text-center" style="margin-top: 100px;">
+=======
+          <div class="section-header text-center" style="margin-top: 50px;">
+>>>>>>> 2516efe03ed10fdd07d930dbd3ec3c48987e6805
             <h1 class="h1">What<img src="{{ asset('usergueststyle/images/beautifes/1.png') }}" style="width: 150px; height: auto;">Offer!</h1>
           </div>
           <div class="store-feature section">
@@ -446,5 +450,9 @@
           </div>
           <!--End Store Feature-->
 
+<<<<<<< HEAD
 @endsection
 
+=======
+@endsection
+>>>>>>> 2516efe03ed10fdd07d930dbd3ec3c48987e6805

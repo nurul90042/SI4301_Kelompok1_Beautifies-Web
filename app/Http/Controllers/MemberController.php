@@ -12,4 +12,8 @@ class MemberController extends Controller
         return view('index-member');
         
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 2516efe03ed10fdd07d930dbd3ec3c48987e6805
