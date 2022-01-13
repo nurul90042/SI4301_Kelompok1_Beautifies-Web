@@ -268,9 +268,6 @@
                     </li>
 
 				
-                    <li>
-                        <a href="table.html"><i class="fa fa-table"></i> Responsive Tables</a>
-                    </li>
             
                 </ul>
 
