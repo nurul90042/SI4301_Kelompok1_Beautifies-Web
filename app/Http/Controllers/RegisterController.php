@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 use App\Models\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Hash;
 
 class RegisterController extends Controller
 {
@@ -21,7 +22,7 @@ class RegisterController extends Controller
         $add->last_name = $request->customerlast_name;
         $add->user_name = $request->customeruser_name;
         $add->email = $request->customeremail;
-        $add->password = $request->customerpassword;
+        $add->password = Hash::make($request->customerpassword);
 
         $add->save();
 
