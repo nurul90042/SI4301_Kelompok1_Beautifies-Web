@@ -15,16 +15,21 @@ class ProdukAdminController extends Controller
 
     public function addproduct(Request $request){
 
-        $gambarproduk = time().'img'.'.'.$request->gambarproduk->extension();
+        // $gambarproduk = time().'img'.'.'.$request->gambarproduk->extension();
 
-        $request->gambarproduk->move(public_path('image'),$gambarproduk);
-
+        // $request->gambarproduk->move(public_path('image'),$gambarproduk);
+        $char = "1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        $length_c = strlen($char);
+        $randomString = '';
+            for ($i = 0; $i < $length_c; $i++) {
+                $randomString .= $char[rand(0, $length_c - 1)];
+            }
         $produk = new Produk();
-        $produk->id=$request->idVaccine;
-        $produk->kode_produk=$request->name;
-        $produk->nama_produk=$request->nik;
-        $produk->harga_produk=$request->alamat;
-        $produk->gambarproduk=$gambarproduk;
+        $produk->id=$request->id;
+        $produk->kode_produk=$request->kode_produk;
+        $produk->nama_produk=$request->nama_produk;
+        $produk->harga_produk=$request->harga_produk;
+        // $produk->gambarproduk=$gambarproduk;
         $produk->save();
 
         return redirect(route('product-manage'));

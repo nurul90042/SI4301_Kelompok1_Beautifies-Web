@@ -1,9 +1,5 @@
 @extends('admin.admin')
 @section('main')
-
-
-
-
 <div id="wrapper"> 
 
            
@@ -18,18 +14,22 @@
                 <div class="panel panel-default">
                 
                     <div class="panel-body">
-                        <form method="post" action="#" id="CustomerLoginForm" accept-charset="UTF-8" class="contact-form">	
+                        <form method="post"  accept-charset="UTF-8" class="contact-form">	
                             <div class="row">
                               <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                <div class="form-group">
+                                    <label for="CustomerEmail">Kode Produk</label>
+                                    <input type="text" name="kode_produk" placeholder="" id="kode_produk" class="" autocorrect="off" autocapitalize="off" value="$randomString">
+                                </div>
                                   <div class="form-group">
                                       <label for="CustomerEmail">Nama Produk</label>
-                                      <input type="email" name="nama_produk" placeholder="" id="CustomerEmail" class="" autocorrect="off" autocapitalize="off" autofocus="">
+                                      <input type="text" name="nama_produk" placeholder="" id="nama_produk" class="" autocorrect="off" autocapitalize="off" autofocus="">
                                   </div>
                               </div>
                               <div class="col-12 col-sm-12 col-md-12 col-lg-12">
                                   <div class="form-group">
                                       <label for="CustomerPassword">Harga Produk</label>
-                                      <input type="password" value="" name="customer[password]" placeholder="" id="CustomerPassword" class="">                        	
+                                      <input type="number" value="" name="harga_produk" placeholder="" id="CustomerPassword" >                        	
                                   </div>
                               </div>
                               <label>Tambah Gambar</label><br>
