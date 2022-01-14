@@ -444,7 +444,6 @@
                 </div>
             </div>
           </div>
-          </div>
           <!--End Store Feature-->
 
 @endsection
