@@ -1,8 +1,11 @@
 @extends('admin.admin')
 @section('main')
 
+
+
+
 <div id="wrapper"> 
-             <!-- /. ROW  -->
+
            
         <div class="row">
             <div class="col-md-12">
@@ -15,6 +18,7 @@
                 <div class="panel panel-default">
                 
                     <div class="panel-body">
+                        <a href="{{route('add-product')}}"><button type="button" class="btn btn-primary" style="margin-top:10px; margin-bottom:10px;">Tambah Produk</button></a>
                         <div class="table-responsive">
                             <table class="table table-striped table-bordered table-hover" id="dataTables-example">
                                 <thead>
@@ -22,16 +26,19 @@
                                         <th>Id Produk</th>
                                         <th>Kode Produk</th>
                                         <th>Nama Produk</th>
-                                        <th>Keterangan</th>
+                                        <th>Harga</th>
                                         <th>Action</th>
                                     </tr>
                                 </thead>
                                 <tbody>
+                                    
+                                    @foreach ($produks as $data)
                                     <tr class="odd gradeX">
-                                        <td>1</td>
-                                        <td>xxx</td>
-                                        <td>Face Toner</td>
-                                        <td class="center">4</td>
+                                        <td>{{$data->id}}</td>
+                                        <td>{{$data->kode_produk}}</td>
+                                        <td>{{$data->nama_produk}}</td>
+                                        <td>Rp {{$data->harga_produk}}</td>
+                                        
                                         
                                         <td>
                                             <button type="button" class="btn btn-success" style="font-size:1rem;">Edit</button>
@@ -39,30 +46,8 @@
 
                                         </td>
                                     </tr>
-                                    <tr class="odd gradeX">
-                                        <td>2</td>
-                                        <td>xxx</td>
-                                        <td>Face Toner</td>
-                                        <td class="center">4</td>
-                                        
-                                        <td>
-                                            <button type="button" class="btn btn-success" style="font-size:1rem;">Edit</button>
-                                                <a> <input type="submit" value="Delete" class="btn btn-danger" style="font-size:1rem;" /></a>
-
-                                        </td>
-                                    </tr>
-                                    <tr class="odd gradeX">
-                                        <td>3</td>
-                                        <td>xxxx</td>
-                                        <td>Face Toner</td>
-                                        <td class="center">4</td>
-                                        
-                                        <td>
-                                            <button type="button" class="btn btn-success" style="font-size:1rem;">Edit</button>
-                                                <a> <input type="submit" value="Delete" class="btn btn-danger" style="font-size:1rem;" /></a>
-
-                                        </td>
-                                    </tr>
+                                    @endforeach
+                            
 
                                 </tbody>
                             </table>
@@ -73,15 +58,7 @@
                 <!--End Advanced Tables -->
             </div>
         </div>
-            <!-- /. ROW  -->
-      
-            <!-- /. ROW  -->
-     
-            <!-- /. ROW  -->
-        
-            <!-- /. ROW  -->
-    
-           {{-- <footer><p>All right reserved. Template by: <a href="http://webthemez.com">WebThemez</a></p></footer> --}}
-
-
+           
 @endsection
+
+
