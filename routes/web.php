@@ -34,6 +34,7 @@ Route::get('/form/add/product', [App\Http\Controllers\ProdukAdminController::cla
 // GUEST
 Route::get('/', [App\Http\Controllers\UserGuestController::class, 'index'])->name('home-guest');
 Route::get('/login', [App\Http\Controllers\LoginController::class, 'index'])->name('login');
+Route::post('/login', [App\Http\Controllers\LoginController::class, 'authenticate']);
 Route::get('/register', [App\Http\Controllers\RegisterController::class, 'index'])->name('register');
 Route::post('/register1', [App\Http\Controllers\RegisterController::class, 'store']);
 

@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
+use Illuminate\Support\Facades\Auth;
 class LoginController extends Controller
 {
     public function index()
@@ -12,4 +12,21 @@ class LoginController extends Controller
         return view('login');
         
     }
-}
+
+    public function authenticate(Request $request)
+    {
+        $credential = $request->validate([
+            'email'=> 'required|email:dns',
+            'password' => 'required',
+        ]);
+        
+        if(Auth::attempt($credential)){
+            $request->session()->regenerate();
+            return redirect()->intended('home-guest');
+        }
+
+        return back()->with('loginError','Login Failed!!');
+        
+    }
+
+} 
