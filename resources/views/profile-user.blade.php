@@ -43,6 +43,9 @@
         <i class="material-icons">close</i>
       </div>
     </div>
+    <div class="prof-icon">
+        
+    </div>
     <div class="color-switcher-toggle animated pulse infinite">
       <i class="material-icons">settings</i>
     </div>
