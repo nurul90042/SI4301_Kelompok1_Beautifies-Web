@@ -23,6 +23,6 @@ class RegisterController extends Controller
 
         $add->save();
 
-        return redirect(route('login'));
+        return redirect(route('login'))->with('success','Registration successfull! Please login');
     }
 }

@@ -2,7 +2,7 @@
 @section('main')
 
 <!--Body Content-->
-<div id="page-content">
+<div id="page-content" style="margin-top:100px;">
     	<!--Page Title-->
     	<div class="page section-header text-center">
 			<div class="page-title">

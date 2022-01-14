@@ -1,7 +1,7 @@
 @extends('layouts.user')
 @section('main')
 
-<div id="page-content">
+<div id="page-content" style="margin-top:100px;">
     	<!--Page Title-->
     	<div class="page section-header text-center">
 			<div class="page-title">
@@ -9,6 +9,12 @@
       		</div>
 		</div>
         <!--End Page Title-->
+        @if(session()->has('success'))
+            <div class="alert alert-success alert-dismissible fade show" role="alert" style="margin-left:590px; width:400px;">
+                {{session('success')}}
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close" style="margin-top:-5px;"></button>
+            </div>
+        @endif
         
         <div class="container">
         	<div class="row">
@@ -45,5 +51,5 @@
         </div>
         
     </div>
-    <h1>P</h1>
+
 @endsection
