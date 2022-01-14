@@ -2,6 +2,7 @@
     <head>
         <meta charset="utf-8">
         <title>Beautifies Website</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="custom.css">
         <link rel="shortcut icon" href="{{ asset('usergueststyle/images/beautifes/1.png') }}" />
@@ -54,7 +55,25 @@
                             <!--End Desktop Menu-->
                         </div>
                         <div class="col-4 col-sm-3 col-md-3 col-lg-1" style="margin-left:90px;">
-                            <a type="button" class="btn btn-primary label-form" style="background-color:#FB2E86; color:white; margin-left:5%;" href="{{ route('login') }}">Login</a>
+                            @auth 
+                                <li class="nav-item dropdown" style="margin-left:-60px; margin-top:-20px;">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Welcome back, {{auth()->user()->user_name}}
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="/"><i class="bi bi-layout-text-sidebar-reverse"></i> Home</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        
+                                        <li>
+                                            <form action="/logout" method="post" >    
+                                                @csrf
+                                                <button type="submit" class="dropdown-item"><i class="bi bi-box-arrow-in-right"></i> Logout</button>
+                                        </li>
+                                    </ul>
+                                </li>
+                            @else
+                                <a type="button" class="btn btn-primary label-form" style="background-color:#FB2E86; color:white; margin-left:5%;" href="{{ route('login') }}">Login</a>
+                            @endauth
                         </div>
                     </div>
                 </div>
