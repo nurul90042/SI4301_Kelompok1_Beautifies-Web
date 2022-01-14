@@ -30,6 +30,12 @@
                                     <input type="text" name="customerlast_name" placeholder="" id="LastName">
                                 </div>
                                </div>
+                               <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                <div class="form-group">
+                                    <label for="LastName">UserName</label>
+                                    <input type="text" name="customeruser_name" placeholder="" id="UserName">
+                                </div>
+                               </div>
                             <div class="col-12 col-sm-12 col-md-12 col-lg-12">
                                 <div class="form-group">
                                     <label for="CustomerEmail">Email</label>
