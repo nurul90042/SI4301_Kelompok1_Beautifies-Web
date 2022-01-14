@@ -14,7 +14,7 @@
                 <div class="panel panel-default">
                 
                     <div class="panel-body">
-                        <form method="post"  accept-charset="UTF-8" class="contact-form">	
+                        <form method="post" action="/product/add/data" accept-charset="UTF-8" class="contact-form">	
                             <div class="row">
                               <div class="col-12 col-sm-12 col-md-12 col-lg-12">
                                 <div class="form-group">

@@ -13,6 +13,11 @@ class ProdukAdminController extends Controller
         
     }
 
+    public function formaddproduct()
+    {
+        return view('form-product');        
+    }
+
     public function addproduct(Request $request){
 
         // $gambarproduk = time().'img'.'.'.$request->gambarproduk->extension();

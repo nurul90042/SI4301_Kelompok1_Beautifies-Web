@@ -26,7 +26,9 @@ Route::get('/shopm', [App\Http\Controllers\ShopAdminController::class, 'index'])
 
 
 
-Route::get('/add-product', [App\Http\Controllers\ProdukAdminController::class, 'addproduct'])->name('add-product');
+Route::get('/form/add/product', [App\Http\Controllers\ProdukAdminController::class, 'formaddproduct'])->name('form-product');
+// Route::get('/product/add/data', [App\Http\Controllers\ProdukAdminController::class, 'addproduct']);
+
 
 
 // GUEST
