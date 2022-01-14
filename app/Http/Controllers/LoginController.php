@@ -22,7 +22,7 @@ class LoginController extends Controller
         
         if(Auth::attempt($credential)){
             $request->session()->regenerate();
-            return redirect()->intended('home-guest');
+            return redirect()->intended('/');
         }
 
         return back()->with('loginError','Login Failed!!');
