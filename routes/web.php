@@ -35,6 +35,7 @@ Route::get('/form/add/product', [App\Http\Controllers\ProdukAdminController::cla
 Route::get('/', [App\Http\Controllers\UserGuestController::class, 'index'])->name('home-guest');
 Route::get('/login', [App\Http\Controllers\LoginController::class, 'index'])->name('login');
 Route::get('/register', [App\Http\Controllers\RegisterController::class, 'index'])->name('register');
+Route::post('/register1', [App\Http\Controllers\RegisterController::class, 'store']);
 
 //MEMBER
 Route::get('/member', [App\Http\Controllers\MemberController::class, 'index'])->name('index-member');

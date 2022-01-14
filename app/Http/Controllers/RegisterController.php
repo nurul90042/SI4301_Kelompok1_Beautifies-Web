@@ -18,6 +18,8 @@ class RegisterController extends Controller
         $add = new User();
 
         $add->name = $request->customerfirst_name;
+        $add->last_name = $request->customerlast_name;
+        $add->user_name = $request->customeruser_name;
         $add->email = $request->customeremail;
         $add->password = $request->customerpassword;
 
